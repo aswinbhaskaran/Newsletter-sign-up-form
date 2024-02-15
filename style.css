@@ -88,7 +88,7 @@
 		flex-direction:column;
 		justify-content:space-between
 	}
-	#success-panel #flex
+	#success-panel #success-flex
 	{
 		height:100%;
 		display:flex;
@@ -137,7 +137,7 @@
 		display:flex;
 		flex-direction:row-reverse
 	}
-	#sub-form #flex
+	#sub-form #sub-flex
 	{
 		width:100%;
 		display:flex;
@@ -146,7 +146,7 @@
 		justify-content:center;
 		align-content:center
 	}
-	#sub-form #flex #flex-content
+	#sub-form #sub-flex #sub-flex-content
 	{
 		width:440px
 	}
@@ -193,8 +193,7 @@
 	#sub-form input
 	{
 		background:transparent;
-		display:block;/*Primary => <Tomato>hsl(4, 100%, 67%)
-Neutral => <Dark Slate Grey>hsl(234, 29%, 20%), <Charcoal Grey>hsl(235, 18%, 26%), <Grey>hsl(231, 7%, 60%)*/
+		display:block;
 		padding:15px;
 		border-radius:8px;
 		border: 1px solid hsl(231, 7%, 60%);
