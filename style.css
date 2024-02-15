@@ -13,7 +13,8 @@
 	}
 	#sub-form table
 	{
-		margin-block:20px
+		margin-block:20px;
+		border:none
 	}
 	#sub-form .img
 	{
