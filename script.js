@@ -6,7 +6,7 @@ if(screen.width >= 1440)
 {
 	desk.removeAttribute('style');
 	mob.setAttribute('style', 'display:none');
-	img.setAttribute('src', './assets/images/illustration-sign-up-desktop.svg');
+	img.setAttribute('src', './images/illustration-sign-up-desktop.svg');
 	img.setAttribute('alt', 'Desktop design');
 	document.querySelector('main').setAttribute('style', 'height:' + (screen.height - 189) +'px');
 }
@@ -16,7 +16,7 @@ else if((screen.width >= 375) && (screen.width < 1440))
 
 	desk.setAttribute('style', 'display:none');
 	mob.removeAttribute('style');
-	img.setAttribute('src', './assets/images/illustration-sign-up-mobile.svg');
+	img.setAttribute('src', './images/illustration-sign-up-mobile.svg');
 	img.setAttribute('alt', 'Mobile design');
 	success.setAttribute('style', success.getAttribute('style') + ';height:' + (screen.height - 120) +'px');
 }
