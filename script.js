@@ -41,11 +41,14 @@ function subEmail()
 
 		sub.querySelector('#heading #valid-heading').setAttribute('style', 'display:none');
 		sub.setAttribute('style', 'display:none');
+		email = inp.value;
 
 		if(screen.width >= 1440)
 			success.removeAttribute('style');
 		else if((screen.width >= 375) && (screen.width < 1440))
 			success.setAttribute('style', 'height:' + (screen.height - 120) + 'px');
+
+		success.querySelector('div > p > strong').innerText = inp.value;
 	}
 	else
 	{
@@ -59,6 +62,7 @@ function disMsg()
 	let success = document.getElementById('success-panel');
 
 	document.getElementById('sub-form').removeAttribute('style');
+
 	if(!success.hasAttribute('style'))
 		success.setAttribute('style', 'display:none');
 	else
